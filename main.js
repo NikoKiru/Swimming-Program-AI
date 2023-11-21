@@ -7,7 +7,7 @@ const loadingP = document.querySelector('p.hidden');
 
 function generateProgram() {
     loadingP.classList.remove('hidden')
-    getGeneratedText(`Genarate a swimming trainning program. With a distance of: ${inputtedDistance.value} meters. Focus on: ${inputtedStroke.value} stroke.`)
+    getGeneratedText(`Genarate a swimming trainning program. With a distance of: ${inputtedDistance.value} meters. Focus on: ${inputtedStroke.value} stroke. All output should be in meters`)
         .then(generatedText => {
             pTag.innerText = generatedText
             loadingP.classList.add('hidden');
