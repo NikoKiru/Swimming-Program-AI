@@ -1,0 +1,69 @@
+
+h1 {
+    font-family: "Arial Black", sans-serif;
+    text-align: center;
+}
+
+section {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+input {
+    width: 300px;
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    border:none;
+    border-bottom:1px solid #757575;
+
+}
+
+button.genarate-program {
+    background-color: white;
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+p.hidden {
+    display: none;
+}
+
+
+p.program {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+<h1>Generate Swimming Program</h1>
+<section class="box">
+    <div>
+        <label for="distance">How long do you want to swim</label>
+        <input id="distance" type="text" placeholder="ex. 2000">
+    </div>
+
+    <div>
+        <label for="stroke">Which stroke do you preffer to train?</label>
+        <input id="stroke" type="text" placeholder="ex. freestyle">
+    </div>
+
+    <button class="genarate-program">Get Program</button>
+</section>
+<section class="program">
+    <p class="hidden">
+        loading
+    </p>
+    <p class="program"></p>
+</section>
+<script src="utils.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
